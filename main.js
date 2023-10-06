@@ -16,6 +16,8 @@ const getImage = () => {
         const imageURL = data[0].url;
         //creates element for image
         const cat = document.createElement('img');
+        cat.style.width = "500px"
+        cat.style.maxHeight = "350px"
         //gives url
         cat.src = imageURL;
         //clear and append

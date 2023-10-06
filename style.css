@@ -17,3 +17,10 @@
     bottom:20%;
     right:30%;
 }
+.button{
+    height:40px;
+    width:70px;
+    position:absolute;
+    bottom:5%;
+    left:48%
+}
